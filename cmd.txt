@@ -1,0 +1,9 @@
+step 1: npm init -y  // This initializes the directory as a Nodeds project
+step 2: npm install -D tailwindess postess autoprefixer vite // installs required package
+step 3: npx tailwindess init -p
+step 4: Create a css file "input.css", add it to your html and edit it with this content:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+step 5:. In your tailwind.config.js file replace content: [ ], with content: ['*'],
+step 6: Run npm run start command
